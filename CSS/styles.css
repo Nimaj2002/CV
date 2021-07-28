@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.Heading {
+  background-color: #E4F9F5;
+}
+
+.Headingh1 {
+  margin-top: 0;
+  font-size: 40px;
+}
+
+.up-cloud {
+  left: 20%;
+  margin-top: 30px;
+  position: relative;
+}
+
+.down-cloud {
+  position: absolute;
+}
+
+.mountain {
+  position: relative;
+}
