@@ -3,13 +3,34 @@ body {
   text-align: center;
 }
 
+/*
+font-family: 'Press Start 2P', cursive;
+
+font-family: 'Sacramento', cursive;
+
+font-family: 'Teko', sans-serif;
+*/
 .Heading {
   background-color: #E4F9F5;
 }
 
-.Headingh1 {
+.Heading h1 {
+  margin-top: 32px;
+  font-size: 90px;
+  font-family: 'Sacramento', cursive;
+  margin-bottom: 0;
+  color: #66BFBF;
+}
+
+.Heading h2 {
+  font-size: 50px;
+  font-family: 'Teko', sans-serif;
   margin-top: 0;
-  font-size: 40px;
+  color: #66BFBF;
+}
+
+h2 span{
+  text-decoration: underline;
 }
 
 .up-cloud {
@@ -24,4 +45,8 @@ body {
 
 .mountain {
   position: relative;
+}
+
+.Avatar{
+  width: 10%;
 }
