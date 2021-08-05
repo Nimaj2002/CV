@@ -1,14 +1,17 @@
 body {
   margin: 0;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FCFEFE;
+  color: #40514E
 }
 
 /*
-font-family: 'Press Start 2P', cursive;
+    font-family: 'Montserrat', sans-serif;
 
-font-family: 'Sacramento', cursive;
+    font-family: 'Sacramento', cursive;
 
-font-family: 'Teko', sans-serif;
+    font-family: 'Teko', sans-serif;
 */
 .Heading {
   background-color: #E4F9F5;
@@ -27,26 +30,143 @@ font-family: 'Teko', sans-serif;
   font-family: 'Teko', sans-serif;
   margin-top: 0;
   color: #66BFBF;
+  font-weight: normal;
 }
 
-h2 span{
+h2 span {
   text-decoration: underline;
 }
 
 .up-cloud {
   left: 20%;
-  margin-top: 30px;
+  margin-top: 15px;
   position: relative;
 }
 
 .down-cloud {
   position: absolute;
+  left: 250px;
 }
 
 .mountain {
   position: relative;
 }
 
-.Avatar{
+.Avatar {
+  width: 150px;
+}
+
+.skillspic {
+  width: 200px;
+  float: left;
+  margin: 30px;
+}
+
+.edu {
+  width: 125px;
+  float: right;
+  margin: 30px;
+}
+
+h2 {
+  color: #11999E;
+  font-family: 'Teko', sans-serif;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 1;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Teko', sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+h4 {
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+.BUTTON {
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #11cdd4 5%, #11999e 50%);
+  border: 0px solid;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Teko', sans-serif;
+  ;
+  font-size: 30px;
+  font-weight: normal;
+  padding: 5px 40px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.BUTTON:hover {
+  background: linear-gradient(to bottom, #30e3cb 5%, #2Bc4Ad 50%);
+}
+
+.BUTTON:active {
+  position: relative;
+  top: 1px;
+}
+
+hr {
+  border: none;
   width: 10%;
+  border-top: 5px dotted gray;
+  margin-top: 50px;
+}
+
+.body {
+  width: 50%;
+  margin: 50px auto;
+  line-height: 2;
+}
+
+.body p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skill-row {
+  text-align: left;
+}
+
+footer {
+  background-color: #66BFBF;
+  height: 100%;
+}
+
+.links {
+  padding: 30px
+}
+
+.links a {
+  margin: 0 30px;
+}
+
+.links a:hover {
+  color: #EAF6F6;
+}
+
+footer p {
+  color: #EAF6F6;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.intro p {
+  width: 50%;
+  margin: auto;
 }
