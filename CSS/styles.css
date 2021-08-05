@@ -139,6 +139,11 @@ hr {
   font-family: 'Montserrat', sans-serif;
 }
 
+.math {
+  font-family: 'Teko', sans-serif;
+  font-size: 20px;
+}
+
 .skill-row {
   text-align: left;
 }
